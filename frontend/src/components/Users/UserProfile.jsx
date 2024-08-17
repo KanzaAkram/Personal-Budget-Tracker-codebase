@@ -29,7 +29,7 @@ const UserProfile = () => {
   });
   return (
     <>
-      <div className="max-w-4xl mx-auto my-10 p-8 bg-white rounded-lg shadow-md">
+      <div className="max-w-4xl mx-auto my-10 p-8 bg-gradient-to-r from-pink-400 via-red-400 to-orange-400 rounded-lg shadow-md">
         <h1 className="mb-2 text-2xl text-center font-extrabold">
           Welcome
           {/* <span className="text-gray-500 text-sm ml-2">info@gmail.com</span> */}
@@ -48,7 +48,7 @@ const UserProfile = () => {
         <form onSubmit={formik.handleSubmit} className="space-y-6">
           {/* User Name Field */}
           <div className="flex items-center space-x-4">
-            <FaUserCircle className="text-3xl text-gray-400" />
+            <FaUserCircle className="text-3xl text-pink-950" />
             <div className="flex-1">
               <label
                 htmlFor="username"
@@ -73,7 +73,7 @@ const UserProfile = () => {
 
           {/* Email Field */}
           <div className="flex items-center space-x-4">
-            <FaEnvelope className="text-3xl text-gray-400" />
+            <FaEnvelope className="text-3xl text-pink-950" />
             <div className="flex-1">
               <label
                 htmlFor="email"

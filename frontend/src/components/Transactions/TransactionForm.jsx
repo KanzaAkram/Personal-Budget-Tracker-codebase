@@ -67,7 +67,7 @@ const TransactionForm = () => {
   return (
     <form
       onSubmit={formik.handleSubmit}
-      className="max-w-lg mx-auto my-10 bg-white p-6 rounded-lg shadow-lg space-y-6"
+      className="max-w-lg mx-auto my-10 bg-gradient-to-r from-pink-200 via-red-200 to-orange-200 p-6 rounded-lg shadow-lg space-y-6"
     >
       <div className="text-center">
         <h2 className="text-2xl font-semibold text-gray-800">

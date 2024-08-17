@@ -43,7 +43,7 @@ const TransactionList = () => {
   });
 
   return (
-    <div className="my-4 p-4 shadow-lg rounded-lg bg-white">
+    <div className="my-4 p-4 shadow-lg rounded-lg bg-gradient-to-r from-pink-400 via-red-400 to-orange-400">
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
         {/* Start Date */}
         <input

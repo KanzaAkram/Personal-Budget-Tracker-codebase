@@ -41,8 +41,8 @@ const UpdatePassword = () => {
   });
 
   return (
-    <div className="flex flex-col items-center justify-center p-4">
-      <h2 className="text-lg font-semibold mb-4">Change Your Password</h2>
+    <div className="flex h-center flex-col items-center justify-center p-4 w-1/2 ml-[300px] h-auto rounded-lg bg-customGold">
+      <h2 className="text-lg font-semibold mb-4 ">Change Your Password</h2>
       <form onSubmit={formik.handleSubmit} className="w-full max-w-xs">
         <div className="mb-4">
           <label
@@ -62,13 +62,13 @@ const UpdatePassword = () => {
             />
           )}
           <div className="flex items-center border-2 py-2 px-3 rounded">
-            <AiOutlineLock className="text-gray-400 mr-2" />
+            <AiOutlineLock className="text-gray-900 mr-2" />
             <input
               id="new-password"
               type="password"
               name="newPassword"
               {...formik.getFieldProps("password")}
-              className="outline-none flex-1"
+              className="outline-none flex-1 bg-customGold text-gray-900"
               placeholder="Enter new password"
             />
           </div>
