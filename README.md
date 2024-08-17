@@ -13,6 +13,8 @@ This Personal Budget Tracker is a comprehensive tool designed to help you manage
 ### Video Demonstration
 Watch a video demonstration of the Personal Budget Tracker [here](https://drive.google.com/file/d/1BU242ouLkOgG87qHLpv2wI_f74givTDW/view?usp=sharing).
 
+[![Watch the video](path-to-your-thumbnail-image.png)](https://drive.google.com/file/d/1BU242ouLkOgG87qHLpv2wI_f74givTDW/view?usp=sharing)
+
 
 
 
