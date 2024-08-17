@@ -10,7 +10,7 @@ import { FaBlog } from "react-icons/fa";
 
 export default function PublicNavbar() {
   return (
-    <Disclosure as="nav" className="bg-white shadow">
+    <Disclosure as="nav" className="bg-pink-200 shadow">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -30,14 +30,14 @@ export default function PublicNavbar() {
                 </div>
                 <div className="flex flex-shrink-0 items-center">
                   {/* Logo */}
-                  <SiAuthy className="h-8 w-auto text-green-500" />
+                  <SiAuthy className="h-8 w-auto text-pink-950" />
                 </div>
                 <div className="hidden md:ml-6 md:flex md:space-x-8">
                   <Link
                     to="/"
                     className="inline-flex items-center border-b-2 border-indigo-500 px-1 pt-1 text-sm font-medium text-gray-900"
                   >
-                    MasyncTracker
+                    BudgetTracker
                   </Link>
                 </div>
               </div>
